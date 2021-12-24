@@ -1,5 +1,5 @@
-﻿open System.IO
-
+﻿open JonThomas.AdventOfCode2021
+ 
 (*
     run program by using the following command: dotnet run
     
@@ -16,26 +16,11 @@
     It is now trivial to check if item0 is larger than item1, and count the result
 *)
 
-module FileUtils =
-    let readFile (filePath: string) : seq<int> =
-        System.IO.File.ReadLines(filePath)
-        |> Seq.map(fun x -> (int)x)
-
 [<EntryPoint>]
 let main args =
     //for arg in args do
-    //    printfn "Arg: %s" arg
+    //   printfn "Arg: %s" arg
 
-    let filePath = "C:\dev\AdventOfCode2021\Day1-Input1.txt"
-    let lines = FileUtils.readFile filePath 
-    let lines2 = FileUtils.readFile filePath 
-                 |> Seq.tail
-
-    let decreasing = Seq.zip lines lines2
-                    |> Seq.where (fun x -> (fst x) < (snd x))
-                   // |> Seq.iter (fun x -> printfn "%d %d" (fst x) (snd x))
-
-    printfn "The depth is decreasing %d number of times" (decreasing |> Seq.length)
+    Day1.day11
 
     0
-
