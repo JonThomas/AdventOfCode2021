@@ -8,7 +8,7 @@ module Day1 =
 
     let day11 = 
 
-        let lines = FileUtils.readFile filePath
+        let lines = FileUtils.readFileAsIntegers filePath
                     |> Seq.toArray 
         let lines2 = lines 
                     |> Array.tail
@@ -17,13 +17,12 @@ module Day1 =
                         |> Array.where (fun x -> 
                             let first, second = x
                             first < second)
-                    // |> Seq.iter (fun x -> printfn "%d %d" (fst x) (snd x))
 
         $"The depth is decreasing {(decreasing |> Array.length)} times"
 
     let day12 =
 
-        let lines = FileUtils.readFile filePath
+        let lines = FileUtils.readFileAsIntegers filePath
                     |> Seq.toArray
         let lines2 = lines[1 .. lines.Length - 2]
         let lines3 = lines[2 ..]
@@ -32,10 +31,8 @@ module Day1 =
                                 |> Array.map(fun x -> 
                                 let first, second, third = x
                                 first + second + third)
-        //printfn "Length of slidingWindow: %d" (slidingWindow |> Seq.length)
 
         let slidingWindow2 = slidingWindow[1 .. slidingWindow.Length]
-        //printfn "Length of slidingWindow2: %d" (slidingWindow2 |> Seq.length)
 
         let decreasing = Array.zip slidingWindow[0 .. slidingWindow.Length - 2] slidingWindow2
                         |> Array.where (fun x -> 
