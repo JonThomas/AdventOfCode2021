@@ -17,5 +17,8 @@ The answer is: 2215080
 ## Problem 2
 https://adventofcode.com/2021/day/2#part2
 
+The problem here is very similar to Day 2, problem 1, but a third variable "aim" has been introduced.
 
-The answer is 
+This fits nicely into the recursive method I already wrote, so I just had to understand the new rules for aim and update the the pattern matching and input variables.
+
+The answer is 1864715580

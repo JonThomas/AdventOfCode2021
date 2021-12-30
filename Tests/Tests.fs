@@ -17,3 +17,7 @@ type TestClass () =
     [<TestMethod>]
     member this.TestDay21() =
         Assert.AreEqual(2215080, fst(Day2.day21))
+
+    [<TestMethod>]
+    member this.TestDay22() =
+        Assert.AreEqual(1864715580, fst(Day2.day22))

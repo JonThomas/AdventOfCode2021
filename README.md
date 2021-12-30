@@ -9,9 +9,9 @@ Tests can be run using the following command:
 
     dotnet test
 
-[Day1](./src/day1/README.md): ⭐⭐
+[Day1](./Src/day1/README.md): ⭐⭐
 
-[Day2](./src/day2/README.md): ⭐
+[Day2](./Src/day2/README.md): ⭐⭐
 
 Day 1 resources: 
 * [Getting started with F#](https://docs.microsoft.com/en-us/dotnet/fsharp/get-started/get-started-vscode)
