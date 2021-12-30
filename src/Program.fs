@@ -5,7 +5,7 @@ let main args =
     //for arg in args do
     //   printfn "Arg: %s" arg
 
-    let (_, output) = Day2.day22
+    let (_, output) = Day3.day31
 
     printfn "%s" output
 

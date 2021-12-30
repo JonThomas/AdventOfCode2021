@@ -13,6 +13,9 @@ Tests can be run using the following command:
 
 [Day2](./Src/day2/README.md): ⭐⭐
 
+[Day3](./Src/day3/README.md): 
+
+
 Day 1 resources: 
 * [Getting started with F#](https://docs.microsoft.com/en-us/dotnet/fsharp/get-started/get-started-vscode)
 * [Presentation that helped me understand sequences](http://www.idt.mdh.se/kurser/DVA229/slides/options.pdf)
