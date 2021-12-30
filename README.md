@@ -9,6 +9,8 @@ The program can be run in VSCode by hitting F5, or from the following command:
 
 [Day2](./src/day2/README.md): ⭐
 
-Day 1 resources: [Getting started with F#](https://docs.microsoft.com/en-us/dotnet/fsharp/get-started/get-started-vscode), [Presentation that helped me understand sequences](http://www.idt.mdh.se/kurser/DVA229/slides/options.pdf)
+Day 1 resources: 
+* [Getting started with F#](https://docs.microsoft.com/en-us/dotnet/fsharp/get-started/get-started-vscode)
+* [Presentation that helped me understand sequences](http://www.idt.mdh.se/kurser/DVA229/slides/options.pdf)
 
-Day 2 resource: [Nice example about recursion](https://fsharpforfunandprofit.com/posts/match-expression/#matching-on-lists)
+Day 2 resource: [Nice example about recursion](https://fsharpforfunandprofit.com/posts/match-expression/#matching-on-lists) 
