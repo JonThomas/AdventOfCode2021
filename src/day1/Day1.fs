@@ -4,7 +4,7 @@ open JonThomas.AdventOfCode2021
 
 module Day1 =
 
-    let filePath = ".\day1\Day1-Input1.txt"
+    let filePath = ".\day1\Day1-Input.txt"
 
     let day11 = 
 
@@ -18,7 +18,7 @@ module Day1 =
                             let first, second = x
                             first < second)
 
-        $"The depth is decreasing {(decreasing |> Array.length)} times"
+        (decreasing |> Array.length, $"The depth is decreasing {decreasing |> Array.length} times")
 
     let day12 =
 
@@ -40,4 +40,4 @@ module Day1 =
                             first < second)
                         |> Array.length
 
-        $"The depth is decreasing {decreasing} number of times"
+        (decreasing, $"The depth is decreasing {decreasing} number of times")

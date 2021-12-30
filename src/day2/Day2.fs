@@ -38,4 +38,4 @@ module Day2 =
         // Start processing, by calling recursive function with initial values
         let (horiz, verti) = evaluateMovement lines (0,0)
 
-        $"\nThe answer is {horiz * verti}\n(Distance = {horiz}, Depth = {verti})"
+        (horiz * verti), $"\nThe answer is {horiz * verti}\n(Distance = {horiz}, Depth = {verti})"
