@@ -8,7 +8,7 @@
 
   <ItemGroup>
     <Compile Include="FileUtils.fs" />
-    <Content Include="**\Day*-Input.txt">
+    <Content Include="**\Day*-input.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Compile Include="**\Day*.fs" />
