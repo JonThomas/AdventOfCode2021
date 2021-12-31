@@ -3,3 +3,14 @@
 
 .ionide/
 .fake
+.suo
+.vs/**
+.vscode/**
+
+TestResults
+
+project-colors.json
+
+*cache.v*
+*.testlog
+testlog.manifest

@@ -8,4 +8,7 @@ module Day3 =
 
     let day31 =
 
+        // let input = FileUtils.readFileAsStrings filePath
+        // input |> List.map (fun x -> )
+
         (42), $"\nThe answer is 42"
