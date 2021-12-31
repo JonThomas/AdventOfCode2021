@@ -4,7 +4,7 @@ open JonThomas.AdventOfCode2021
 
 module Day3 =
 
-    let filePath = ".\day3\Day3-Input.txt"
+    let filePath = ".\day3\Day3-input.txt"
 
     let day31 =
 

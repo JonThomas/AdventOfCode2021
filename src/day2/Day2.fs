@@ -4,7 +4,7 @@ open JonThomas.AdventOfCode2021
 
 module Day2 =
 
-    let filePath = ".\day2\Day2-Input.txt"
+    let filePath = ".\day2\Day2-input.txt"
 
     // Record to hold movement values - one Movement for each line in the input file.
     type Movement = { direction: string; distance: int }
