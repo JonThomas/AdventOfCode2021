@@ -15,6 +15,7 @@ Tests can be run using the following command:
 
 [Day3](./Src/day3/README.md): 
 
+![F# build and tests](https://github.com/jonthomas/adventofcode2021/actions/workflows/dotnet.yml/badge.svg)
 
 Day 1 resources: 
 * [Getting started with F#](https://docs.microsoft.com/en-us/dotnet/fsharp/get-started/get-started-vscode)
