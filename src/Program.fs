@@ -1,12 +1,14 @@
-﻿open JonThomas.AdventOfCode2021
- 
-[<EntryPoint>]
-let main args =
-    //for arg in args do
-    //   printfn "Arg: %s" arg
+﻿namespace JonThomas.AdventOfCode2021
 
-    let (_, output) = Day3.day31
+module Main =
 
-    printfn "%s" output
+    [<EntryPoint>]
+    let main args =
+        //for arg in args do
+        //   printfn "Arg: %s" arg
 
-    0
+        let (_, output) = Day3.day31
+
+        printfn "%s" output
+
+        0

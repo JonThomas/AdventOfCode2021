@@ -9,7 +9,7 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "${workspaceFolder}/bin/Debug/net6.0/AdventOfCode2021.dll",
+            "program": "${workspaceFolder}/src/bin/Debug/net6.0/AdventOfCode2021.dll",
             "args": [],
             "cwd": "${workspaceFolder}",
             "console":"integratedTerminal",

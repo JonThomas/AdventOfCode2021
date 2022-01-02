@@ -1,7 +1,5 @@
 namespace JonThomas.AdventOfCode2021
 
-open JonThomas.AdventOfCode2021
-
 module Day1 =
 
     let filePath = ".\day1\Day1-input.txt"

@@ -1,6 +1,8 @@
 # AdventOfCode2021
 Teaching myself F# by solving programming puzzles: [Advent of Code 2021](https://adventofcode.com/2021)
 
+![F# build and tests](https://github.com/jonthomas/adventofcode2021/actions/workflows/dotnet.yml/badge.svg)
+
 The program can be run in VSCode by hitting F5, or from the following command: 
 
     dotnet run
@@ -14,8 +16,6 @@ Tests can be run using the following command:
 [Day2](./Src/day2/README.md): ⭐⭐
 
 [Day3](./Src/day3/README.md): 
-
-![F# build and tests](https://github.com/jonthomas/adventofcode2021/actions/workflows/dotnet.yml/badge.svg)
 
 Day 1 resources: 
 * [Getting started with F#](https://docs.microsoft.com/en-us/dotnet/fsharp/get-started/get-started-vscode)
